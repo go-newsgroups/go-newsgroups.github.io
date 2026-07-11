@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ .Site.Title }} — Pure-Go Usenet: NNTP, yEnc, NZB, Newznab search, PAR2 (AutoPAR).</title>
+<meta name="description" content="Pure-Go Usenet: NNTP, yEnc, NZB, Newznab search, PAR2 (AutoPAR).">
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+<link rel="stylesheet" href="{{ "css/brand.css" | relURL }}">
+<script src="{{ "js/theme.js" | relURL }}"></script>
+</head><body>
+<section class="hero">
+  <button id="themebtn" class="theme" type="button">Theme: System</button>
+  <img src="{{ "img/go-newsgroups-white.png" | relURL }}" alt="go-newsgroups">
+  <h1>go-newsgroups</h1>
+  <p>Pure-Go Usenet: NNTP, yEnc, NZB, Newznab search, PAR2 (AutoPAR).</p>
+  <div class="btns">
+    <a class="btn btn-solid" href="https://go-newsgroups.github.io/docs/">Documentation</a>
+    <a class="btn btn-ghost" href="https://github.com/go-newsgroups">GitHub</a>
+  </div>
+</section>
+<div class="wrap">
+  <div class="panel">
+    <h2>What is go-newsgroups?</h2>
+    <p>go-newsgroups is a family of small, composable pure-Go modules for Usenet: an RFC 3977 NNTP read client, yEnc / uuencode codecs, an NZB parser with segment download and reassembly, a Newznab / NZBHydra2 search client, and a PAR2 verify / Reed-Solomon repair library (the format behind AutoPAR). Every module is CGO_ENABLED=0 and standard-library-first.</p>
+  </div>
+  <h2 class="section">Packages</h2>
+  <p class="sub">{{ len site.Data.pkgs.packages }} module(s) — generated from the org's repos.</p>
+  <div class="grid">
+    <div class="card"><div class="chip">NE</div><div class="nm">newznab</div><div class="ds">Client for the Newznab / NZBHydra2 indexer search API.</div><div class="lk"><a href="https://github.com/go-newsgroups/newznab">GitHub</a> · <a href="https://pkg.go.dev/github.com/go-newsgroups/newznab">pkg.go.dev</a></div></div>
+    <div class="card"><div class="chip">NN</div><div class="nm">nntp</div><div class="ds">RFC 3977 NNTP (Usenet) read client — plaintext or implicit TLS.</div><div class="lk"><a href="https://github.com/go-newsgroups/nntp">GitHub</a> · <a href="https://pkg.go.dev/github.com/go-newsgroups/nntp">pkg.go.dev</a></div></div>
+    <div class="card"><div class="chip">NZ</div><div class="nm">nzb</div><div class="ds">NZB parser + segment download &amp; reassembly over NNTP with yEnc.</div><div class="lk"><a href="https://github.com/go-newsgroups/nzb">GitHub</a> · <a href="https://pkg.go.dev/github.com/go-newsgroups/nzb">pkg.go.dev</a></div></div>
+    <div class="card"><div class="chip">PA</div><div class="nm">par2</div><div class="ds">PAR2 parse / verify (MD5+CRC32) / Reed-Solomon repair (AutoPAR).</div><div class="lk"><a href="https://github.com/go-newsgroups/par2">GitHub</a> · <a href="https://pkg.go.dev/github.com/go-newsgroups/par2">pkg.go.dev</a></div></div>
+    <div class="card"><div class="chip">YE</div><div class="nm">yenc</div><div class="ds">yEnc and uuencode decode / encode for Usenet binaries.</div><div class="lk"><a href="https://github.com/go-newsgroups/yenc">GitHub</a> · <a href="https://pkg.go.dev/github.com/go-newsgroups/yenc">pkg.go.dev</a></div></div>
+  </div>
+</div>
+<footer>Built with Hugo · Pure Go, CGO=0 · Branding from <a href="https://github.com/go-newsgroups/brand">go-newsgroups/brand</a></footer>
+</body></html>

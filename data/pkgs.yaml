@@ -1,0 +1,6 @@
+packages:
+  - { name: "newznab", desc: "Client for the Newznab / NZBHydra2 indexer search API.", url: "https://github.com/go-newsgroups/newznab", doc: "https://pkg.go.dev/github.com/go-newsgroups/newznab" }
+  - { name: "nntp", desc: "RFC 3977 NNTP (Usenet) read client — plaintext or implicit TLS.", url: "https://github.com/go-newsgroups/nntp", doc: "https://pkg.go.dev/github.com/go-newsgroups/nntp" }
+  - { name: "nzb", desc: "NZB parser + segment download & reassembly over NNTP with yEnc.", url: "https://github.com/go-newsgroups/nzb", doc: "https://pkg.go.dev/github.com/go-newsgroups/nzb" }
+  - { name: "par2", desc: "PAR2 parse / verify (MD5+CRC32) / Reed-Solomon repair (AutoPAR).", url: "https://github.com/go-newsgroups/par2", doc: "https://pkg.go.dev/github.com/go-newsgroups/par2" }
+  - { name: "yenc", desc: "yEnc and uuencode decode / encode for Usenet binaries.", url: "https://github.com/go-newsgroups/yenc", doc: "https://pkg.go.dev/github.com/go-newsgroups/yenc" }

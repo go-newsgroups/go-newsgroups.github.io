@@ -1,0 +1,4 @@
+baseURL = "https://go-newsgroups.github.io/"
+languageCode = "en-us"
+title = "go-newsgroups"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
