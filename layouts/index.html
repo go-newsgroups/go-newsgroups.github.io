@@ -38,7 +38,7 @@
   <div class="hero"><div class="wrap">
     <div>
       <h1 class="head">go-newsgroups</h1>
-      <p class="sub">Pure-Go Usenet: NNTP, yEnc, NZB, Newznab search, PAR2 (AutoPAR).</p>
+      <p class="sub">{{ if partial "mantra-on.html" . }}Go{{ else }}Pure-Go{{ end }} Usenet: NNTP, yEnc, NZB, Newznab search, PAR2 (AutoPAR).</p>
       {{/* [[params.cta]] in hugo.toml: the kit renders the row */}}
       {{ partial "cta.html" . }}
     </div>
